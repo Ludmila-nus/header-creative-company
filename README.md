@@ -7,7 +7,7 @@ This project showcases a modern and responsive web page design using CSS variabl
 
 ## Project Structure
 - **index.html**: Contains the HTML structure of the page, defining the layout and content.
-- **styles.css**: Primary stylesheet responsible for defining the overall page aesthetics, leveraging flexbox for layout structuring. */
+- **styles.css**: Primary stylesheet responsible for defining the overall page aesthetics, leveraging flexbox for layout structuring. 
 
 
 
