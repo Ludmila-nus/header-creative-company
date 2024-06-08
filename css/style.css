@@ -1,0 +1,186 @@
+:root {
+  --color1: #515DEF;
+  --color2: #FBFBFB;
+  --color3: #909090;
+  --color4: #333333;
+  --color5: #1BCFF6;
+  --font1: 'Poppins', sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+div.page {
+  margin: 0;
+  padding: 0;
+  background-color: #515DEF;
+  font-family: var(--font1);
+  background-image: url(../img/mask-group2x.jpg);
+  background-position: top right -100px;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+
+div.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+
+}
+
+.page div.logo {
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-right: 40px;
+
+}
+
+.page div.logo span:nth-child(2) {
+  color: var(--color5);
+}
+
+.page div.logo span:first-child,
+.page div.logo span:last-child {
+  color: var(--color2);
+}
+
+.nav-bar {
+  margin-right: auto;
+}
+
+.nav-bar ul {
+  display: flex;
+  gap: 56px;
+  padding: 0;
+  margin: 0;
+
+}
+
+.nav-bar ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-bar a {
+  display: block;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  color: var(--color2);
+  text-transform: capitalize;
+}
+
+header button {
+  display: flex;
+  width: 149px;
+  height: 60px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--color1);
+  background: var(--color1);
+  text-transform: capitalize;
+  color: var(--color2);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.principal {
+  width: 50%;
+  color: var(--color2);
+
+}
+
+.principal h1 {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  margin: 0;
+}
+
+.principal p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.principal p:first-of-type {
+  margin-top: 40px;
+}
+
+.principal button {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.articles {
+  background-color: var(--color2);
+  width: 80%;
+  box-sizing: border-box;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px 100px;
+  transform: translateX(-130px);
+}
+
+.articles article {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 360px;
+}
+
+.articles article:first-of-type{
+  margin-left: 30px;
+}
+
+.articles h2 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.articles p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--color3);
+}
+
+.articles img{
+  width: 40px;
+}
